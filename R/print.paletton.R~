@@ -1,0 +1,5 @@
+#' Print method for paletton objects
+#'
+#' This is a print method for paletton objects obtained through \code{\link{import_paletton}}.
+#'
+#' @export
