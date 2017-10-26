@@ -17,7 +17,7 @@ install.packages("palettonr")
 
 To benefit from the latest features and bug fixes, install the development, *github* version of the package using:
 ```{r install2, eval = FALSE}
-devtools::install_github("reconhub/palettonr")
+devtools::install_github("thibautjombart/palettonr")
 ```
 
 Note that this requires the package *devtools* installed.
@@ -26,6 +26,17 @@ Note that this requires the package *devtools* installed.
 # What does it do?
 
 The main features of the package include:
+
+- `import_paletton`: imports color palettes generated on
+  [http://paletton.com](paletton.com); make your palette, go to 'Tables /
+  Export', then '-> as text', copy all content, then go to R and run the
+  function without arguments.
+
+- `plot`: plot your `palettonr` object
+
+- `get_palette`/`get_palettes`: extract color palettes from a `palettonr` object
+
+- `get_colors`: get a number of colors from a `palettonr` object
 
 
 
@@ -45,8 +56,7 @@ The following websites are available:
 
 ## Getting help online
 
-Bug reports and feature requests should be posted on *github* using the [*issue*](http://github.com/reconhub/palettonr/issues) system. All other questions should be posted on the **RECON forum**: <br>
-[http://www.repidemicsconsortium.org/forum/](http://www.repidemicsconsortium.org/forum/)
+Bug reports and feature requests should be posted on *github* using the [*issue*](http://github.com/thibautjombart/palettonr/issues) system.
 
 Contributions are welcome via **pull requests**.
 
