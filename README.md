@@ -48,15 +48,11 @@ The main features of the package include:
 
 ## Vignettes
 
-An overview and examples of *palettonr* are provided in the vignettes:
-
-...
+No vignette yet.
 
 ## Websites
 
-The following websites are available:
-
-...
+No website yet.
 
 ## Getting help online
 
