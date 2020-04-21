@@ -28,9 +28,13 @@ Note that this requires the package *devtools* installed.
 The main features of the package include:
 
 - `import_paletton`: imports color palettes generated on
-  [https://paletton.com](paletton.com); make your palette, go to 'Tables /
-  Export', then '-> as text', copy all content, then go to R and run the
-  function without arguments.
+  [paletton.com](https://paletton.com); workflow is:
+
+    1. design your palette 
+    2. go to 'Tables /  Export' 
+    3. export 'as text' 
+    4. copy all content 
+    5. go to R and type `import_paletton()`
 
 - `plot`: plot your `palettonr` object
 
