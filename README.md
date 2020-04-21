@@ -1,6 +1,4 @@
----
-output: github_document
----
+
 
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/palettonr)](https://cran.r-project.org/package=palettonr)
 
@@ -30,7 +28,7 @@ Note that this requires the package *devtools* installed.
 The main features of the package include:
 
 - `import_paletton`: imports color palettes generated on
-  [http://paletton.com](paletton.com); make your palette, go to 'Tables /
+  [https://paletton.com](paletton.com); make your palette, go to 'Tables /
   Export', then '-> as text', copy all content, then go to R and run the
   function without arguments.
 
